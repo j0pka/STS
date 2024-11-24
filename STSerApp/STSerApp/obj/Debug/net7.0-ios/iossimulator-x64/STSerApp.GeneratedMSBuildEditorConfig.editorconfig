@@ -1,0 +1,72 @@
+is_global = true
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = STSerApp
+build_property.ProjectDir = D:\Apps\STS\STSerApp\STSerApp\
+
+[D:/Apps/STS/STSerApp/STSerApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Apps/STS/STSerApp/STSerApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Apps/STS/STSerApp/STSerApp/Page/CurrentTasks.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.CurrentTasks.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\CurrentTasks.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\CurrentTasks.xaml
+
+[D:/Apps/STS/STSerApp/STSerApp/Page/GraphPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.GraphPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\GraphPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\GraphPage.xaml
+
+[D:/Apps/STS/STSerApp/STSerApp/Page/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\LoginPage.xaml
+
+[D:/Apps/STS/STSerApp/STSerApp/Page/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\MainPage.xaml
+
+[D:/Apps/STS/STSerApp/STSerApp/Page/MenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.MenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\MenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\MenuPage.xaml
+
+[D:/Apps/STS/STSerApp/STSerApp/Page/PathwayTasks.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.PathwayTasks.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\PathwayTasks.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\PathwayTasks.xaml
+
+[D:/Apps/STS/STSerApp/STSerApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Apps/STS/STSerApp/STSerApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

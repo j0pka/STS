@@ -1,0 +1,1 @@
+D:\Apps\STS\STSER\STSER\STSER.csproj;x64

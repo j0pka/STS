@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSER.Views.NewPage1"
+             Title="Сотрудники">
+    
+    <VerticalStackLayout Padding="10" Spacing="10">
+        <Picker Title="Выбрать задачу"
+                ItemsSource="{Binding Orders}"
+                ItemDisplayBinding="{Binding Title}"
+                x:Name="orderPicker"/>
+    
+
+    <Entry Placeholder="XZXZx"
+           x:Name="numEntry"/>
+
+    <DatePicker x:Name="fIPicker"/>
+
+    <Entry Placeholder="Зарплата"
+           x:Name="zpEntry"
+           Keyboard="Numeric"/>
+    
+    <Button Text="Сохр"
+            x:Name="saveBtn"
+            Clicked="saveBtn_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
