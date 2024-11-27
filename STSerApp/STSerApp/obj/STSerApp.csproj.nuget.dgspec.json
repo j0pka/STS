@@ -100,6 +100,10 @@
               "version": "[7.0.92, )",
               "autoReferenced": true
             },
+            "Plugin.Maui.Calendar": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -225,6 +229,10 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Plugin.Maui.Calendar": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             }
           },
           "imports": [
@@ -296,6 +304,10 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Plugin.Maui.Calendar": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             }
           },
           "imports": [
@@ -378,6 +390,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Plugin.Maui.Calendar": {
+              "target": "Package",
+              "version": "[1.0.3, )"
             }
           },
           "imports": [

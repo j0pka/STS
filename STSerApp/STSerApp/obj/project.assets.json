@@ -242,6 +242,19 @@
           }
         }
       },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -2209,6 +2222,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -4182,6 +4208,19 @@
           }
         }
       },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -6149,6 +6188,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -8122,6 +8174,19 @@
           }
         }
       },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -10089,6 +10154,19 @@
         "runtime": {
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
           }
         }
       },
@@ -12062,6 +12140,19 @@
           }
         }
       },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -14032,6 +14123,19 @@
           }
         }
       },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -15988,6 +16092,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-arm": {
@@ -16216,6 +16329,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
@@ -16446,6 +16568,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-x64": {
@@ -16674,6 +16805,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
@@ -16904,6 +17044,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
@@ -17132,6 +17281,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
@@ -17362,6 +17520,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/win10-x64": {
@@ -17590,6 +17757,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
@@ -17820,6 +17996,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
@@ -18048,6 +18233,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
@@ -18278,6 +18472,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
@@ -18506,6 +18709,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
@@ -18736,6 +18948,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
@@ -18964,6 +19185,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
@@ -19194,6 +19424,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
@@ -19422,6 +19661,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll": {}
         }
       }
     },
@@ -19795,6 +20043,15 @@
           }
         }
       },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        }
+      },
       "System.Speech/7.0.0": {
         "type": "package",
         "compile": {
@@ -20160,6 +20417,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        }
+      },
       "System.Speech/7.0.0": {
         "type": "package",
         "compile": {
@@ -20517,6 +20783,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -20878,6 +21153,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        }
+      },
       "System.Speech/7.0.0": {
         "type": "package",
         "compile": {
@@ -21235,6 +21519,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -21596,6 +21889,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        }
+      },
       "System.Speech/7.0.0": {
         "type": "package",
         "compile": {
@@ -21953,6 +22255,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -22318,6 +22629,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Maui.Calendar/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -23668,6 +23988,26 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Plugin.Maui.Calendar/1.0.3": {
+      "sha512": "Ctir2tdqqS0c/UP+vyeyZ8hy2w1uMYLGfS7zG7P8RCh0tp+SfLqiyu16EgWxyyParQ2mnz6w1jlmR0XDCcrksw==",
+      "type": "package",
+      "path": "plugin.maui.calendar/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net7.0-android33.0/Plugin.Maui.Calendar.aar",
+        "lib/net7.0-android33.0/Plugin.Maui.Calendar.dll",
+        "lib/net7.0-android33.0/Plugin.Maui.Calendar.xml",
+        "lib/net7.0-ios16.1/Plugin.Maui.Calendar.dll",
+        "lib/net7.0-maccatalyst16.1/Plugin.Maui.Calendar.dll",
+        "lib/net7.0-windows10.0.19041/Plugin.Maui.Calendar.dll",
+        "lib/net7.0/Plugin.Maui.Calendar.dll",
+        "nuget.png",
+        "plugin.maui.calendar.1.0.3.nupkg.sha512",
+        "plugin.maui.calendar.nuspec"
       ]
     },
     "System.Speech/7.0.0": {
@@ -25706,6 +26046,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
+      "Plugin.Maui.Calendar >= 1.0.3",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -25726,7 +26067,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92"
+      "Microsoft.Maui.Graphics >= 7.0.92",
+      "Plugin.Maui.Calendar >= 1.0.3"
     ],
     "net7.0-maccatalyst16.1": [
       "CommunityToolkit.Maui >= 5.2.0",
@@ -25736,7 +26078,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92"
+      "Microsoft.Maui.Graphics >= 7.0.92",
+      "Plugin.Maui.Calendar >= 1.0.3"
     ],
     "net7.0-windows10.0.19041": [
       "CommunityToolkit.Maui >= 5.2.0",
@@ -25748,7 +26091,8 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.92",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "Plugin.Maui.Calendar >= 1.0.3"
     ]
   },
   "packageFolders": {
@@ -25851,6 +26195,10 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
+          },
+          "Plugin.Maui.Calendar": {
+            "target": "Package",
+            "version": "[1.0.3, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -25977,6 +26325,10 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
+          },
+          "Plugin.Maui.Calendar": {
+            "target": "Package",
+            "version": "[1.0.3, )"
           }
         },
         "imports": [
@@ -26048,6 +26400,10 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
+          },
+          "Plugin.Maui.Calendar": {
+            "target": "Package",
+            "version": "[1.0.3, )"
           }
         },
         "imports": [
@@ -26130,6 +26486,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "Plugin.Maui.Calendar": {
+            "target": "Package",
+            "version": "[1.0.3, )"
           }
         },
         "imports": [
