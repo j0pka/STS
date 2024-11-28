@@ -1010,6 +1010,7 @@ D:\Apps\STS\STSerApp\STSerApp\obj\Debug\net7.0-android\lp\150\jl\files.cache
 D:\Apps\STS\STSerApp\STSerApp\obj\Debug\net7.0-android\lp\152\jl\files.cache
 D:\Apps\STS\STSerApp\STSerApp\obj\Debug\net7.0-android\lp\160\jl\files.cache
 D:\Apps\STS\STSerApp\STSerApp\obj\Debug\net7.0-android\android\assets\Plugin.Maui.Calendar.dll
+D:\Apps\STS\STSerApp\STSerApp\obj\Debug\net7.0-android\resizetizer\r\drawable\stslogo.png
 D:\Apps\STS\STSerApp\STSerApp\obj\Debug\net7.0-android\android\assets\mscorlib.dll
 D:\Apps\STS\STSerApp\STSerApp\obj\Debug\net7.0-android\android\assets\System.Collections.Concurrent.dll
 D:\Apps\STS\STSerApp\STSerApp\obj\Debug\net7.0-android\android\assets\System.Data.Common.dll

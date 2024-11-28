@@ -10818,10 +10818,11 @@ public final class R {
     public static final int password=0x7f0700d3;
     public static final int rectanglelist=0x7f0700d4;
     public static final int splash=0x7f0700d5;
-    public static final int test_level_drawable=0x7f0700d6;
-    public static final int tooltip_frame_dark=0x7f0700d7;
-    public static final int tooltip_frame_light=0x7f0700d8;
-    public static final int user=0x7f0700d9;
+    public static final int stslogo=0x7f0700d6;
+    public static final int test_level_drawable=0x7f0700d7;
+    public static final int tooltip_frame_dark=0x7f0700d8;
+    public static final int tooltip_frame_light=0x7f0700d9;
+    public static final int user=0x7f0700da;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

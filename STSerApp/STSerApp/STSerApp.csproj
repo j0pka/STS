@@ -66,6 +66,7 @@
 	  <None Remove="Resources\Images\menuburger.svg" />
 	  <None Remove="Resources\Images\password.svg" />
 	  <None Remove="Resources\Images\rectanglelist.svg" />
+	  <None Remove="Resources\Images\stslogo.png" />
 	  <None Remove="Resources\Images\user.svg" />
 	</ItemGroup>
 
@@ -86,13 +87,13 @@
 	  <MauiXaml Update="Page\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Page\MainPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Page\MenuPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Page\PathwayTasks.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Popups\TaskDetailsPopup.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

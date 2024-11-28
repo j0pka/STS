@@ -1,0 +1,84 @@
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               x:Class="STSerApp.Popups.TaskDetailsPopup"
+               
+               >
+
+    <!-- Контейнер Frame для содержимого Popup -->
+    <Frame Padding="20"
+           
+           WidthRequest="300"
+           HeightRequest="420"
+           
+           HasShadow="False"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           BackgroundColor="White"      
+        >
+
+        <!-- Контент всплывающего окна -->
+        <VerticalStackLayout BackgroundColor="White">
+            <!-- Кнопка закрытия -->
+            <Button Text="✖" 
+                    HorizontalOptions="End" 
+                    Clicked="ClosePopup"/>
+
+            <!-- Заголовок задачи -->
+            <Label Text="{Binding Title}" 
+                   FontSize="20" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center"
+                   Margin="0,0,5,0"/>
+
+            <!-- Дата и время -->
+            <Label Text="{Binding Date, StringFormat='Дата: {0:dd.MM.yyyy} Время: {0:HH:mm}'}" 
+                   FontSize="14" 
+                   TextColor="Gray"
+                   HorizontalOptions="Center"
+                   Margin="0,3,0,3"/>
+
+            <!-- Техника -->
+            <Label Text="{Binding Vehicle, StringFormat='Техника: {0}'}" 
+                   FontSize="14" 
+                   HorizontalOptions="Start"
+Margin="0,3,0,3"/>
+
+            <!-- Заказчик -->
+            <Label Text="{Binding Customer, StringFormat='Заказчик: {0}'}" 
+       FontSize="14" HorizontalOptions="Start"
+Margin="0,3,0,3"/>
+            <HorizontalStackLayout>
+                <!-- Номер заказчика -->
+                <Label Text="{Binding CustomerPhone, StringFormat='Номер телефона: {0}'}" 
+FontSize="14" HorizontalOptions="Start"
+Margin="0,3,0,3"/>
+            </HorizontalStackLayout>
+            
+            
+            <!-- Адрес -->
+            <Label Text="{Binding Address, StringFormat='Адрес заказа: {0}'}" 
+FontSize="14" HorizontalOptions="Start"
+Margin="0,3,0,3"/>
+
+            <!-- Описание -->
+            <ScrollView HeightRequest="60" WidthRequest="270" HorizontalOptions="Start" >
+                <Label Text="{Binding Description}" 
+                       FontSize="14" 
+                       WidthRequest="260"
+                       LineBreakMode="WordWrap" 
+                       HorizontalOptions="Start"/>
+            </ScrollView>
+
+            <!-- Кнопка закрытия окна -->
+            <Button Text="Начать выполнение" 
+                    BackgroundColor="{StaticResource Orange}" 
+                    TextColor="White" 
+                    Clicked="ClosePopup"
+                    Margin="5,10,5,5"
+                    HorizontalOptions="Center"
+                    VerticalOptions="End"/>
+        </VerticalStackLayout>
+    </Frame>
+
+</toolkit:Popup>

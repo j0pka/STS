@@ -1,1 +1,0 @@
-D:\Apps\STS\STSerApp\STSerApp\STSerApp.csproj;x64

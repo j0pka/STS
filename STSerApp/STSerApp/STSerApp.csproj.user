@@ -23,9 +23,6 @@
     <MauiXaml Update="Page\LoginPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Page\MainPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="Page\MenuPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -33,6 +30,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Platforms\Windows\App.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Popups\TaskDetailsPopup.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Resources\Styles\Colors.xaml">
