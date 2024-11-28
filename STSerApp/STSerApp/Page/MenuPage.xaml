@@ -6,7 +6,7 @@
               >
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Пока ничего нет "
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
