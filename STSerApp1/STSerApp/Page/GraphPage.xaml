@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSerApp.Page.GraphPage"
+             xmlns:cal="clr-namespace:Plugin.Maui.Calendar.Controls;assembly=Plugin.Maui.Calendar"
+             NavigationPage.HasNavigationBar="False"
+             Title="GraphPage">
+
+
+
+    <VerticalStackLayout Padding="10" Spacing="0">
+
+        <!-- Надпись "График работы" -->
+        <Label 
+            Text="График работы" 
+            FontSize="24" 
+            FontFamily="RobotoBold" 
+            HorizontalOptions="Center" 
+            TextColor="{StaticResource Black}" />
+
+        <cal:Calendar
+        ArrowsBorderColor="{StaticResource White}"
+        ArrowsFontSize="25"
+        ArrowsBackgroundColor ="{StaticResource White}"
+        ShowYearPicker="False"
+        CalendarLayout="Month"
+        Culture="{Binding Culture}"
+        Events="{Binding Events}"
+        EventsScrollViewVisible="True"
+        SelectedDayBackgroundColor="{StaticResource Blue}"
+        TodayOutlineColor="{StaticResource Blue}"
+        EventIndicatorType="BackgroundFull" 
+        EventIndicatorColor="{StaticResource Orange}"
+        EventIndicatorSelectedColor="{StaticResource Orange}"
+        MonthLabelColor="{StaticResource Black}"
+        DaysTitleColor="{StaticResource Primary}"
+        DeselectedDayTextColor="Black" Padding="10"
+        
+        >
+            <cal:Calendar.EventTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout>
+
+                        <Label Text="{Binding Name}" FontSize="25" FontFamily="RobotoBold" Margin="0,0,0,0" HorizontalOptions="Center" TextColor="{StaticResource Orange}"/>
+                        <Label Text="{Binding Description}" FontSize="18" Margin="20,10,20,0" HorizontalOptions="Center"/>
+
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </cal:Calendar.EventTemplate>
+        </cal:Calendar>
+    </VerticalStackLayout>
+
+</ContentPage>

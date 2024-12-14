@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSerApp.Page.TestPage"
+             Title="TestPage">
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Button Text="Выйти" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10" FontSize="18" x:Name="Login2Btn" Clicked="Login2Btn_Clicked"/>
+
+            <Entry Placeholder="Task Title" x:Name="titleEntry" />
+
+            <Label Text="Start Date and Time" />
+            <DatePicker x:Name="startDatePicker" />
+            <TimePicker x:Name="startTimePicker" />
+
+            <Label Text="End Date and Time" />
+            <DatePicker x:Name="endDatePicker" />
+            <TimePicker x:Name="endTimePicker" />
+
+            <Label Text="Employee" />
+            <Picker x:Name="employeePicker" Title="Select Employee" 
+        ItemDisplayBinding="{Binding LastName}" 
+        ItemsSource="{Binding Employees}" />
+
+            <Label Text="Customer" />
+            <Picker x:Name="customerPicker" Title="Select Customer" 
+        ItemDisplayBinding="{Binding CompanyName}" 
+        ItemsSource="{Binding Customers}" />
+
+            <Label Text="Vehicle" />
+            <Picker x:Name="vehiclePicker" Title="Select Vehicle" 
+        ItemDisplayBinding="{Binding Name}" 
+        ItemsSource="{Binding Vehicles}" />
+            <Entry Placeholder="Address" x:Name="addressEntry" />
+            <Entry Placeholder="Description" x:Name="descriptionEntry" />
+            <Entry Placeholder="Task Comment" x:Name="taskCommentEntry" />
+
+
+            <Button Text="Save" x:Name="SaveBtn" Clicked="SaveBtn_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="STSerApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:STSerApp.Page"
+    Shell.FlyoutBehavior="Disabled"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Shell.TabBarBackgroundColor="{StaticResource Primary}"
+    Shell.TabBarTitleColor="{StaticResource Gray200}"
+    
+    xmlns:pages="clr-namespace:STSerApp.Page"
+    Shell.NavBarIsVisible="False">
+
+    <Shell.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Primary}"/>
+    </Shell.Behaviors>
+    
+    <!--<ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />-->
+    <TabBar >
+        <ShellContent Title="Активные"
+                      Icon="bell.svg"                               
+                      ContentTemplate="{DataTemplate pages:PathwayTasks}"
+                      Route="PathwayTasks"
+            Shell.NavBarIsVisible="False"/>
+        <ShellContent Title="Заказы"
+                      Icon="rectanglelist.svg"
+                      ContentTemplate="{DataTemplate pages:CurrentTasks}"
+                      Route="CurrentTasks"
+            Shell.NavBarIsVisible="False"/>
+        <ShellContent Title="График"
+                      Icon="calendar.svg"
+                      ContentTemplate="{DataTemplate pages:GraphPage}"
+                      Route="GraphPage"
+            Shell.NavBarIsVisible="False"/>
+        <ShellContent Title="Меню"
+                      Icon="menuburger.svg"
+                      ContentTemplate="{DataTemplate pages:MenuPage}"
+                      Route="MenuPage"
+            Shell.NavBarIsVisible="False"/>
+    </TabBar>
+
+</Shell>

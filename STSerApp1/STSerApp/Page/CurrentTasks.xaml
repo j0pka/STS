@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSerApp.Page.CurrentTasks"
+             NavigationPage.HasNavigationBar="False"
+             Title="Предстоящие задачи">
+
+    <!-- Прокручиваемый контейнер -->
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="10">
+
+            <!-- Заголовок страницы -->
+            <Label 
+                Text="Предстоящие заказы" 
+                FontSize="24" 
+                FontAttributes="Bold" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Start"
+                />
+
+            <!-- Список задач -->
+            <CollectionView  x:Name="TasksCollectionView" ItemsSource="{Binding Tasks}" SelectionMode="None" VerticalOptions="FillAndExpand">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="5" Padding="10" BorderColor="{StaticResource Orange}" CornerRadius="10">
+                            <VerticalStackLayout>
+
+                                <!-- Название задачи -->
+                                <Label 
+                                    Text="{Binding Title}" 
+                                    FontSize="18" 
+                                    FontAttributes="Bold" 
+                                    TextColor="{StaticResource Primary}" />
+
+                                <!-- Дата задачи -->
+                                <Label Text="{Binding StartDate, StringFormat='Дата: {0:dd.MM.yyyy} Время: {0:HH:mm}'}" 
+                                       FontSize="16" 
+                                       TextColor="Gray" />
+
+                                <!-- Адрес задачи -->
+                                <Label 
+                                    Text="{Binding Address, StringFormat='Адрес: {0}'}" 
+                                    FontSize="14" 
+                                    TextColor="{StaticResource Gray}" />
+
+                                <!-- Описание задачи -->
+                                <Label 
+                                    Text="{Binding Description}" 
+                                    FontSize="14" 
+                                    TextColor="{StaticResource Black}" 
+                                    LineBreakMode="TailTruncation" />
+
+                                <!-- Кнопка "Больше информации" --><!--
+                                <Button 
+                                        Text="Больше информации" 
+                                        BackgroundColor="{StaticResource Primary}" 
+                                    x:Name="MoreInfBtn"
+                                        TextColor="{StaticResource White}" 
+                                        Clicked="MoreInfBtn_Clicked"
+                                        Margin="0, 10,0,0" />-->
+
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

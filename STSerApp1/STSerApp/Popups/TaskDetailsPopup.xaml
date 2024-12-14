@@ -1,0 +1,101 @@
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               x:Class="STSerApp.Popups.TaskDetailsPopup"
+               
+               >
+    <!-- Контейнер Frame для содержимого Popup -->
+    <Frame Padding="20"
+           WidthRequest="300"
+           HeightRequest="450"
+           HasShadow="False"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           BackgroundColor="White"      
+        >
+
+        <!-- Контент всплывающего окна -->
+        <VerticalStackLayout BackgroundColor="White">
+
+            <!-- Кнопка закрытия -->
+            <Button Text="✖" 
+                    HorizontalOptions="End" 
+                    Clicked="ClosePopup"/>
+
+            <!-- Заголовок задачи -->
+            <Label Text="{Binding Title}" 
+                   FontSize="20" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center"
+                   Margin="0,0,5,0"/>
+
+            <!-- Дата и время -->
+            <Label Text="{Binding StartDate, StringFormat='Дата начала: {0:dd.MM.yyyy} Время: {0:HH:mm}'}" 
+                   FontSize="14" 
+                   TextColor="Gray"
+                   HorizontalOptions="Center"
+                   Margin="0,3,0,3"/>
+
+            <Label Text="{Binding EndDate, StringFormat='Дата окончания: {0:dd.MM.yyyy} Время: {0:HH:mm}'}" 
+                   FontSize="14" 
+                   TextColor="Gray"
+                   HorizontalOptions="Center"
+                   Margin="0,3,0,3"/>
+
+            <!-- Техника (автомобиль) -->
+            <Label Text="{Binding Vehicle.Name, StringFormat='Техника: {0}'}" 
+                   FontSize="14" 
+                   HorizontalOptions="Start"
+                   Margin="0,3,0,3"/>
+
+            <!-- Сотрудник (Имя сотрудника) -->
+            <Label Text="{Binding Employee.Name, StringFormat='Сотрудник: {0}'}" 
+                   FontSize="14" 
+                   HorizontalOptions="Start"
+                   Margin="0,3,0,3"/>
+
+            <!-- Заказчик -->
+            <Label Text="{Binding Customer.CompanyName, StringFormat='Заказчик: {0}'}" 
+                   FontSize="14" 
+                   HorizontalOptions="Start"
+                   Margin="0,3,0,3"/>
+
+            <!-- Номер заказчика -->
+            <Label Text="{Binding Customer.PhoneNumber, StringFormat='Номер телефона: {0}'}" 
+                   FontSize="14" 
+                   HorizontalOptions="Start"
+                   Margin="0,3,0,3"/>
+
+            <!-- Адрес -->
+            <Label Text="{Binding Address, StringFormat='Адрес заказа: {0}'}" 
+                   FontSize="14" 
+                   HorizontalOptions="Start"
+                   Margin="0,3,0,3"/>
+
+            <!-- Описание -->
+            <ScrollView HeightRequest="60" WidthRequest="270" HorizontalOptions="Start">
+                <Label Text="{Binding Description}" 
+                       FontSize="14" 
+                       WidthRequest="260"
+                       LineBreakMode="WordWrap" 
+                       HorizontalOptions="Start"/>
+            </ScrollView>
+
+            <!-- Комментарий -->
+            <Label Text="{Binding TaskComment, StringFormat='Комментарий: {0}'}"
+                   FontSize="14"
+                   HorizontalOptions="Start"
+                   Margin="0,3,0,3"/>
+
+            <!-- Кнопка начала выполнения задачи -->
+            <!--<Button Text="Начать выполнение" 
+                    BackgroundColor="{StaticResource Orange}" 
+                    TextColor="White" 
+                    Clicked="StartTask"
+                    Margin="5,10,5,5"
+                    HorizontalOptions="Center"
+                    VerticalOptions="End"/>-->
+        </VerticalStackLayout>
+    </Frame>
+
+</toolkit:Popup>

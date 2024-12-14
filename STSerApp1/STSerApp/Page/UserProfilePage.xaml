@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSerApp.Page.UserProfilePage"
+             NavigationPage.HasNavigationBar="False"
+              >
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <!-- Фото пользователя в рамке -->
+            <Frame BorderColor="{StaticResource Orange}" CornerRadius="90" Padding="10" HorizontalOptions="Center" HeightRequest="140" WidthRequest="140">
+                <Image Source="user.svg" HeightRequest="100" WidthRequest="100" Aspect="AspectFill" />
+            </Frame>
+
+            <!-- Заголовок -->
+            <Label Text="Ваш профиль" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center" TextColor="{StaticResource Primary}" />
+
+            <!-- Данные пользователя -->
+            <Frame CornerRadius="10" Padding="10" BackgroundColor="White" HasShadow="True">
+                <VerticalStackLayout Spacing="10">
+                    <!-- ФИО -->
+                    <VerticalStackLayout>
+                        <!-- Фамилия -->
+                        <Grid ColumnDefinitions="*, Auto" Padding="7">
+                            <Label Text="Фамилия:" FontSize="18" TextColor="Gray" VerticalOptions="Center" />
+                            <Label Text="{Binding LastName}" FontSize="18" FontAttributes="Bold" TextColor="#333" HorizontalOptions="End" VerticalOptions="Center" />
+                        </Grid>
+                        <BoxView HeightRequest="2" BackgroundColor="#D3D3D3" Opacity="0.2" CornerRadius="10" />
+
+                        <!-- Имя -->
+                        <Grid ColumnDefinitions="*, Auto" Padding="7">
+                            <Label Text="Имя:" FontSize="18" TextColor="Gray" VerticalOptions="Center" />
+                            <Label Text="{Binding FirstName}" FontSize="18" FontAttributes="Bold" TextColor="#333" HorizontalOptions="End" VerticalOptions="Center" />
+                        </Grid>
+                        <BoxView HeightRequest="2" BackgroundColor="#D3D3D3" Opacity="0.2" CornerRadius="10" />
+
+                        <!-- Отчество -->
+                        <Grid ColumnDefinitions="*, Auto" Padding="7">
+                            <Label Text="Отчество:" FontSize="18" TextColor="Gray" VerticalOptions="Center" />
+                            <Label Text="{Binding MiddleName}" FontSize="18" FontAttributes="Bold" TextColor="#333" HorizontalOptions="End" VerticalOptions="Center" />
+                        </Grid>
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Телефон -->
+            <Frame CornerRadius="10" Padding="10" BackgroundColor="White" HasShadow="True">
+                <Grid ColumnDefinitions="*, Auto">
+                    <Label Text="Телефон:" FontSize="18" TextColor="Gray" VerticalOptions="Center" />
+                    <Label Text="{Binding PhoneNumber}" FontSize="18" FontAttributes="Bold" TextColor="#333" HorizontalOptions="End" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <!-- Дата рождения -->
+            <Frame CornerRadius="10" Padding="10" BackgroundColor="White" HasShadow="True">
+                <Grid ColumnDefinitions="*, Auto">
+                    <Label Text="Дата рождения:" FontSize="18" TextColor="Gray" VerticalOptions="Center" />
+                    <Label Text="{Binding DateOfBirth, StringFormat='{0:dd.MM.yyyy}'}" FontSize="18" FontAttributes="Bold" TextColor="#333" HorizontalOptions="End" VerticalOptions="Center" />
+                </Grid>
+            </Frame>
+
+            <!-- Кнопки -->
+            <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+                <Button Text="Редактировать" BackgroundColor="{StaticResource Primary}" TextColor="White" CornerRadius="10" Padding="10,5" WidthRequest="150"  FontSize="16"/>
+                <Button Text="Выйти" BackgroundColor="{StaticResource Orange}" TextColor="White" CornerRadius="10" Padding="10,5" WidthRequest="150" FontSize="16"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

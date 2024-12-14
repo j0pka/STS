@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSerApp.Page.MenuPage"
+             NavigationPage.HasNavigationBar="False"
+              >
+    <VerticalStackLayout>
+        <Button Text="Профиль" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="ProfUserBtn" Clicked="ProfUserBtn_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

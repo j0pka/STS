@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSerApp.Page.LoginPage"
+             Shell.NavBarIsVisible="False"
+             Title="LoginPage">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30, 0"
+        VerticalOptions="Center">
+        <Image Source="stslogo.png" HeightRequest="150" WidthRequest="250" HorizontalOptions="Center" />
+        <VerticalStackLayout Spacing="5">
+            <Label Text="Добро пожаловать!" FontSize="28" TextColor="{StaticResource Primary}" HorizontalOptions="Center" FontFamily="RobotoBold"/>
+            <Label Text="Войдите в аккаунт" FontSize="18" TextColor="Gray" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Frame ZIndex="1" HasShadow="True" HeightRequest="56" WidthRequest="56" CornerRadius="28" BorderColor="White" >
+                <Image Source="user.svg" HeightRequest="20" WidthRequest="20"/>
+            </Frame>
+            <Frame HorizontalOptions="FillAndExpand" BorderColor="{StaticResource White}" HasShadow="True" Padding="0" HeightRequest="45" Margin="-20,0,0,0">
+                <Entry Placeholder="Введите логин" VerticalOptions="Center" Keyboard="Email" Margin="20,0,20,0"  x:Name="LoginEntry" />
+            </Frame>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Frame ZIndex="1" HasShadow="True" HeightRequest="56" WidthRequest="56" CornerRadius="28" BorderColor="White">
+                <Image Source="password.svg" HeightRequest="20" WidthRequest="20"/>
+            </Frame>
+            <Frame HorizontalOptions="FillAndExpand" BorderColor="{StaticResource White}" HasShadow="True" Padding="0"  HeightRequest="45" Margin="-20,0,0,0">
+                <Entry Placeholder="Введите пароль" IsPassword="True" VerticalOptions="Center"  Margin="20,0,20,0" x:Name="PasswordEntry"/>
+            </Frame>
+        </StackLayout>
+        <Button Text="Войти" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="LoginBtn" Clicked="LoginBtn_Clicked"/>
+        <StackLayout Orientation="Vertical" Spacing="0"  HorizontalOptions="Center">
+            <Label Text="Нет аккаунта или забыли пароль?" TextColor="Gray" FontSize="12" HorizontalOptions="Center"/>
+            <Label Text="Свяжитесь с администратором" TextColor="{StaticResource Primary}" TextDecorations="Underline" FontSize="12" HorizontalOptions="Center"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage> 
