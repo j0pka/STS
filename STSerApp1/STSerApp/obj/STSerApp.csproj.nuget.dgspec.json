@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Apps\\STS\\STSerApp\\STSerApp\\STSerApp.csproj": {}
+    "D:\\Apps\\STS\\STSerApp1\\STSerApp\\STSerApp.csproj": {}
   },
   "projects": {
-    "D:\\Apps\\STS\\STSerApp\\STSerApp\\STSerApp.csproj": {
+    "D:\\Apps\\STS\\STSerApp1\\STSerApp\\STSerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Apps\\STS\\STSerApp\\STSerApp\\STSerApp.csproj",
+        "projectUniqueName": "D:\\Apps\\STS\\STSerApp1\\STSerApp\\STSerApp.csproj",
         "projectName": "STSerApp",
-        "projectPath": "D:\\Apps\\STS\\STSerApp\\STSerApp\\STSerApp.csproj",
+        "projectPath": "D:\\Apps\\STS\\STSerApp1\\STSerApp\\STSerApp.csproj",
         "packagesPath": "C:\\Users\\jopka\\.nuget\\packages\\",
-        "outputPath": "D:\\Apps\\STS\\STSerApp\\STSerApp\\obj\\",
+        "outputPath": "D:\\Apps\\STS\\STSerApp1\\STSerApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

@@ -61,7 +61,7 @@
             <!-- Кнопки -->
             <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
                 <Button Text="Редактировать" BackgroundColor="{StaticResource Primary}" TextColor="White" CornerRadius="10" Padding="10,5" WidthRequest="150"  FontSize="16"/>
-                <Button Text="Выйти" BackgroundColor="{StaticResource Orange}" TextColor="White" CornerRadius="10" Padding="10,5" WidthRequest="150" FontSize="16"/>
+                <Button Text="Выйти" BackgroundColor="{StaticResource Orange}" TextColor="White" CornerRadius="10" Padding="10,5" WidthRequest="150" FontSize="16" x:Name="exitBtn" Clicked="exitBtn_Clicked"/>
             </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

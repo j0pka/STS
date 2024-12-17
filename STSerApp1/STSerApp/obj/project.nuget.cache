@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7gZX0TsiiHwVrGyE7oTxulc4GXovn2dnUb/9z8RCQpeoy8Xx1mE8Qv53fdjknA8hds7yxHXnjvLHI6PZEU7rhA==",
+  "dgSpecHash": "TA+VAxNe76ZxCb7443NHDAVq4fVUhLsmqxudI13/vmX4z0rfKVg0OrUUgi2KH2VLewTlrlaOzN/cpZPW+HQYCA==",
   "success": true,
-  "projectFilePath": "D:\\Apps\\STS\\STSerApp\\STSerApp\\STSerApp.csproj",
+  "projectFilePath": "D:\\Apps\\STS\\STSerApp1\\STSerApp\\STSerApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jopka\\.nuget\\packages\\communitytoolkit.maui\\5.2.0\\communitytoolkit.maui.5.2.0.nupkg.sha512",
     "C:\\Users\\jopka\\.nuget\\packages\\communitytoolkit.maui.core\\5.2.0\\communitytoolkit.maui.core.5.2.0.nupkg.sha512",

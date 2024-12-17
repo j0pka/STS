@@ -16,5 +16,20 @@ namespace STSerApp.Page
             // Привязываем данные пользователя к интерфейсу
             BindingContext = _currentUser;
         }
+
+        private async void exitBtn_Clicked(object sender, EventArgs e)
+        {
+            bool confirm = await DisplayAlert("Подтверждение", "Вы действительно хотите выйти?", "Да", "Нет");
+
+            if (confirm)
+            {
+                // Очистка данных текущего пользователя
+                App.CurrentUser = null;
+
+                // Перенаправление на страницу входа
+                Application.Current.MainPage = new NavigationPage(new LoginPage());
+            }
+        }
+
     }
 }

@@ -13,75 +13,75 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = STSerApp
-build_property.ProjectDir = D:\Apps\STS\STSerApp\STSerApp\
+build_property.ProjectDir = D:\Apps\STS\STSerApp1\STSerApp\
 
-[D:/Apps/STS/STSerApp/STSerApp/App.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/AppShell.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Page/CurrentTasks.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Page/CurrentTasks.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.CurrentTasks.xaml
 build_metadata.AdditionalFiles.TargetPath = Page\CurrentTasks.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\CurrentTasks.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Page/GraphPage.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Page/GraphPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.GraphPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Page\GraphPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\GraphPage.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Page/LoginPage.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Page/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Page\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\LoginPage.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Page/MenuPage.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Page/MenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.MenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Page\MenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\MenuPage.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Page/PathwayTasks.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Page/PathwayTasks.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.PathwayTasks.xaml
 build_metadata.AdditionalFiles.TargetPath = Page\PathwayTasks.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\PathwayTasks.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Page/TestPage.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Page/TestPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.TestPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Page\TestPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\TestPage.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Page/UserProfilePage.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Page/UserProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.UserProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Page\UserProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\UserProfilePage.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Popups/TaskDetailsPopup.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Popups/TaskDetailsPopup.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Popups.TaskDetailsPopup.xaml
 build_metadata.AdditionalFiles.TargetPath = Popups\TaskDetailsPopup.xaml
 build_metadata.AdditionalFiles.RelativePath = Popups\TaskDetailsPopup.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Resources/Styles/Colors.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Apps/STS/STSerApp/STSerApp/Resources/Styles/Styles.xaml]
+[D:/Apps/STS/STSerApp1/STSerApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
