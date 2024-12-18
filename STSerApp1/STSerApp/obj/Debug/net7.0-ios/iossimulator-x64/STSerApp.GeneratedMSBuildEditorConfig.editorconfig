@@ -41,6 +41,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.LoginPage.xa
 build_metadata.AdditionalFiles.TargetPath = Page\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\LoginPage.xaml
 
+[D:/Apps/STS/STSerApp1/STSerApp/Page/MapPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.MapPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\MapPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\MapPage.xaml
+
 [D:/Apps/STS/STSerApp1/STSerApp/Page/MenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.MenuPage.xaml

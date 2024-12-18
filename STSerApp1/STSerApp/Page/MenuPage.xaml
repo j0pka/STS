@@ -6,5 +6,6 @@
               >
     <VerticalStackLayout>
         <Button Text="Профиль" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="ProfUserBtn" Clicked="ProfUserBtn_Clicked"/>
+        <Button Text="График" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="GraphUserBtn" Clicked="GraphUserBtn_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>

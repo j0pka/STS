@@ -33,7 +33,7 @@
             Shell.NavBarIsVisible="False"/>
         <ShellContent Title="График"
                       Icon="calendar.svg"
-                      ContentTemplate="{DataTemplate pages:GraphPage}"
+                      ContentTemplate="{DataTemplate pages:MapPage}"
                       Route="GraphPage"
             Shell.NavBarIsVisible="False"/>
         <ShellContent Title="Меню"

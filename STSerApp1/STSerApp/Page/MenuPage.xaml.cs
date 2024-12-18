@@ -12,4 +12,10 @@ public partial class MenuPage : ContentPage
         // Открытие страницы профиля
         Application.Current.MainPage = new NavigationPage(new UserProfilePage());
     }
+
+    private void GraphUserBtn_Clicked(object sender, EventArgs e)
+    {
+        // Открытие страницы профиля
+        Application.Current.MainPage = new NavigationPage(new GraphPage());
+    }
 }
