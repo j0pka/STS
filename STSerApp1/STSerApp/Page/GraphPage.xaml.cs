@@ -18,7 +18,7 @@ public partial class GraphPage : ContentPage
             // custom date
             [new DateTime(2024, 11, 1)] = new List<EventModel>
     {
-        new() { Name = "Рабочий день", Description = "9:00 - Бетонирование площадки" }
+        new() { Name = "Рабочий день!", Description = "9:00 - Бетонирование площадки" }
     },
             [new DateTime(2024, 11, 2)] = new List<EventModel>
     {
