@@ -31,11 +31,11 @@
         </StackLayout>
         <Button Text="Войти" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="LoginBtn" Clicked="LoginBtn_Clicked"/>
         <StackLayout Orientation="Vertical" Spacing="0"  HorizontalOptions="Center">
-            <Label Text="Нет аккаунта или забыли пароль?" TextColor="Gray" FontSize="12" HorizontalOptions="Center"/>
+            <Label Text="Нет аккаунта или забыли пароль?" TextColor="Gray" FontSize="14" HorizontalOptions="Center"/>
             <Label Text="Свяжитесь с администратором"
        TextColor="{StaticResource Primary}"
        TextDecorations="Underline"
-       FontSize="12"
+       FontSize="14"
        HorizontalOptions="Center"
        >
                 <Label.GestureRecognizers>

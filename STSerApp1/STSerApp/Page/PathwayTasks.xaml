@@ -4,17 +4,85 @@
              x:Class="STSerApp.Page.PathwayTasks"
              NavigationPage.HasNavigationBar="False">
     
+    <VerticalStackLayout Padding="-8" Spacing="20" VerticalOptions="End" HorizontalOptions="FillAndExpand">
+        
+        <!-- Верхняя часть: Таймер и время окончания -->
+       
+       
+
+        <!-- Нижняя часть: Кнопки и подпись -->
+        <Frame BorderColor="{StaticResource Orange}" CornerRadius="25" Padding="20" HeightRequest="250" VerticalOptions="End" HorizontalOptions="FillAndExpand">
+            <VerticalStackLayout Spacing="1" HorizontalOptions="CenterAndExpand">
+                <Label x:Name="RemainingTimeLabel" FontSize="24" TextColor="{StaticResource Black}" HorizontalOptions="Center"/>
+                <Label x:Name="EndTimeLabel" FontSize="18" TextColor="{StaticResource Gray600}" HorizontalOptions="Center"/>
+
+                <BoxView HeightRequest="3"  Color="{StaticResource Orange}" Margin="0,5,0,20" CornerRadius="50" />
+
+                <!-- Кнопки с подписями -->
+                <HorizontalStackLayout Spacing="20" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="Button1" BackgroundColor="{StaticResource Orange}" WidthRequest="80" HeightRequest="80" CornerRadius="10"/>
+                    <Button x:Name="Button2" BackgroundColor="{StaticResource Orange}" WidthRequest="80" HeightRequest="80" CornerRadius="10"/>
+                    <Button x:Name="Button3" BackgroundColor="{StaticResource Orange}" WidthRequest="80" HeightRequest="80" CornerRadius="10"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="20" HorizontalOptions="CenterAndExpand">
+                    <Grid HorizontalOptions="CenterAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Добавить информацию" 
+               FontSize="12" 
+               TextColor="{StaticResource Black}" 
+               LineBreakMode="WordWrap" 
+               WidthRequest="80" 
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Grid.Row="0" Grid.Column="0" />
+                    </Grid>
+
+                    <Grid HorizontalOptions="CenterAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Детали заказа" 
+               FontSize="12" 
+               TextColor="{StaticResource Black}" 
+               LineBreakMode="WordWrap" 
+               WidthRequest="80" 
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Grid.Row="0" Grid.Column="0" />
+                    </Grid>
+
+                    <Grid HorizontalOptions="CenterAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Завершить заказ" 
+               FontSize="12" 
+               TextColor="{StaticResource Black}" 
+               LineBreakMode="WordWrap" 
+               WidthRequest="80" 
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               Grid.Row="0" Grid.Column="0" />
+                    </Grid>
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
 </ContentPage>
 
-
-<!-- Сообщение пользователю -->
-<!--<Label Text="Активных заказов нет." 
-       FontSize="18" 
-       HorizontalOptions="Center" 
-       VerticalOptions="Center"
-       
-       Margin="5,0,5,0"
-       TextColor="{StaticResource Gray400}" />
-
-
-<Button Text="Войти" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="Login1Btn" Clicked="Login1Btn_Clicked"/>-->
