@@ -2058,3 +2058,8 @@ D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-android\stamp\_ConvertResourcesC
 D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\backbtn.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\backbtn.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\backbtn.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\backbtn.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\backbtn.png

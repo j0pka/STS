@@ -9,6 +9,9 @@
 
 
     <VerticalStackLayout Padding="10" Spacing="0">
+        <StackLayout Orientation="Horizontal" Padding="0,0,0,20">
+            <ImageButton Source="backbtn.svg" x:Name="backBtn" Clicked="backBtn_Clicked" Padding="0" HeightRequest="40" WidthRequest="40"/>
+        </StackLayout>
 
         <!-- Надпись "График работы" -->
         <Label 

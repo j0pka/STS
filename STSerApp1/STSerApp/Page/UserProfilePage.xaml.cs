@@ -31,5 +31,13 @@ namespace STSerApp.Page
             }
         }
 
+        
+
+        
+
+        private async void backBtn_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new AppShell();
+        }
     }
 }

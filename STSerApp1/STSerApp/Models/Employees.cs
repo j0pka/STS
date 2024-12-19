@@ -27,6 +27,6 @@ namespace STSerApp.Models
         //public byte[] Photo { get; set; } // Фото (хранится как массив байт)
         public string Login { get; set; } // Логин
         public string Password { get; set; } // Пароль
-        public string EmployeeId { get; set; }
+        public int EmployeeId { get; set; }
     }
 }

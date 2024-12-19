@@ -8,8 +8,9 @@ namespace STSerApp.Models
 {
     public class TaskModel
     {
-        public string Name { get; set; } // Название задачи
-        public string Description { get; set; } // Описание задачи
-        public DateTime StartDate { get; set; } // Дата начала задачи
+        public string Title { get; set; }
+        public DateTime StartDate { get; set; }
+        public string Address { get; set; }
+        public string Description { get; set; }
     }
 }

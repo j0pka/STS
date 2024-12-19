@@ -17,5 +17,7 @@ namespace STSerApp.Models
         public string Address { get; set; } // Адрес
         public string Description { get; set; } // Описание
         public string TaskComment { get; set; } // Комментарий к задаче
+        public string EmployeeId { get; set; }
+
     }
 }

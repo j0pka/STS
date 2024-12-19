@@ -9,55 +9,26 @@
     <ScrollView>
         <VerticalStackLayout Padding="10" Spacing="10">
 
-            <!-- Заголовок страницы -->
-            <Label 
-                Text="Предстоящие заказы" 
-                FontSize="24" 
-                FontAttributes="Bold" 
-                HorizontalOptions="Center" 
-                VerticalOptions="Start"
-                />
+            <Label Text="Предстоящие заказы" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Start" />
 
             <!-- Список задач -->
-            <CollectionView  x:Name="TasksCollectionView" ItemsSource="{Binding Tasks}" SelectionMode="None" VerticalOptions="FillAndExpand">
+            <CollectionView x:Name="TasksCollectionView" ItemsSource="{Binding Tasks}" SelectionMode="None" VerticalOptions="FillAndExpand">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame Margin="5" Padding="10" BorderColor="{StaticResource Orange}" CornerRadius="10">
                             <VerticalStackLayout>
-
-                                <!-- Название задачи -->
-                                <Label 
-                                    Text="{Binding Title}" 
-                                    FontSize="18" 
-                                    FontAttributes="Bold" 
-                                    TextColor="{StaticResource Primary}" />
-
-                                <!-- Дата задачи -->
-                                <Label Text="{Binding StartDate, StringFormat='Дата: {0:dd.MM.yyyy} Время: {0:HH:mm}'}" 
-                                       FontSize="16" 
-                                       TextColor="Gray" />
-
-                                <!-- Адрес задачи -->
-                                <Label 
-                                    Text="{Binding Address, StringFormat='Адрес: {0}'}" 
-                                    FontSize="14" 
-                                    TextColor="{StaticResource Gray}" />
-
-                                <!-- Описание задачи -->
-                                <Label 
-                                    Text="{Binding Description}" 
-                                    FontSize="14" 
-                                    TextColor="{StaticResource Black}" 
-                                    LineBreakMode="TailTruncation" />
-
-                                <!-- Кнопка "Больше информации" --><!--
-                                <Button 
-                                        Text="Больше информации" 
-                                        BackgroundColor="{StaticResource Primary}" 
-                                    x:Name="MoreInfBtn"
-                                        TextColor="{StaticResource White}" 
-                                        Clicked="MoreInfBtn_Clicked"
-                                        Margin="0, 10,0,0" />-->
+                                <Label Text="{Binding Title}" FontSize="18" FontAttributes="Bold" TextColor="{StaticResource Primary}" />
+                                <Label Text="{Binding StartDate, StringFormat='Дата: {0:dd.MM.yyyy} Время: {0:HH:mm}'}" FontSize="16" TextColor="Gray" />
+                                <Label Text="{Binding Address}" FontSize="14" TextColor="{StaticResource Gray}" />
+                                <Label Text="{Binding Description}" FontSize="14" TextColor="{StaticResource Black}" LineBreakMode="TailTruncation" />
+                                <Button Text="Больше информации" 
+                                        BackgroundColor="{StaticResource Orange}"
+                                        TextColor="White"
+                                        HorizontalOptions="FillAndExpand"  
+                                        Margin="2,8,2,2"
+                                        FontSize="16"
+                                   
+                                        Clicked="OnMoreInfoBtn_Clicked"/>
 
                             </VerticalStackLayout>
                         </Frame>

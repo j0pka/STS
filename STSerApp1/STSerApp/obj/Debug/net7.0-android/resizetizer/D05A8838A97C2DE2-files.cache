@@ -1,4 +1,5 @@
 ﻿obj\Debug\net7.0-android\resizetizer\r\drawable\stslogo.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\backbtn.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\calendar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
@@ -7,6 +8,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\password.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\rectanglelist.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\user.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\backbtn.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\calendar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
@@ -15,6 +17,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\password.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\rectanglelist.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\user.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\backbtn.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\calendar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
@@ -23,6 +26,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\password.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\rectanglelist.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\user.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\backbtn.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\calendar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
@@ -31,6 +35,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\password.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\rectanglelist.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\user.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\backbtn.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\calendar.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png

@@ -18,4 +18,9 @@ public partial class MenuPage : ContentPage
         // Открытие страницы профиля
         Application.Current.MainPage = new NavigationPage(new GraphPage());
     }
+
+    private void AdminContactBtn_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

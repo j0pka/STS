@@ -15,6 +15,8 @@ namespace STSerApp
                 {
                     fonts.AddFont("Roboto-Regular.ttf", "RobotoRegular");
                     fonts.AddFont("Roboto-Bold.ttf", "RobotoBold");
+                    fonts.AddFont("OpenSansRegular.ttf", "OpenSansRegular");
+                    fonts.AddFont("OpenSansBold.ttf", "OpenSansBold");
                 })
                 .UseMauiCommunityToolkit();
 

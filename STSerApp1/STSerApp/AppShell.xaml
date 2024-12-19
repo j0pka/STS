@@ -7,7 +7,8 @@
     Shell.FlyoutBehavior="Disabled"
     xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     Shell.TabBarBackgroundColor="{StaticResource Primary}"
-    Shell.TabBarTitleColor="{StaticResource Gray200}"
+    Shell.TabBarTitleColor="White"
+    Shell.TabBarUnselectedColor="{StaticResource Gray300}"
     
     xmlns:pages="clr-namespace:STSerApp.Page"
     Shell.NavBarIsVisible="False">
@@ -21,6 +22,7 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />-->
     <TabBar >
+        
         <ShellContent Title="Активные"
                       Icon="bell.svg"                               
                       ContentTemplate="{DataTemplate pages:PathwayTasks}"
@@ -31,7 +33,7 @@
                       ContentTemplate="{DataTemplate pages:CurrentTasks}"
                       Route="CurrentTasks"
             Shell.NavBarIsVisible="False"/>
-        <ShellContent Title="График"
+        <ShellContent Title="Карта"
                       Icon="calendar.svg"
                       ContentTemplate="{DataTemplate pages:MapPage}"
                       Route="GraphPage"

@@ -4,8 +4,47 @@
              x:Class="STSerApp.Page.MenuPage"
              NavigationPage.HasNavigationBar="False"
               >
-    <VerticalStackLayout>
-        <Button Text="Профиль" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="ProfUserBtn" Clicked="ProfUserBtn_Clicked"/>
-        <Button Text="График" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="GraphUserBtn" Clicked="GraphUserBtn_Clicked"/>
+    <VerticalStackLayout Padding="20" Spacing="30" VerticalOptions="Center" HorizontalOptions="Center">
+
+        <!-- Логотип компании -->
+        <Image Source="stslogo.svg" HeightRequest="250" WidthRequest="250" HorizontalOptions="Center" />
+
+        <!-- Заголовок страницы -->
+        
+
+        <!-- Кнопки меню -->
+        <VerticalStackLayout Spacing="20">
+
+            <Button Text="Профиль" 
+                    BackgroundColor="{StaticResource Orange}" 
+                    TextColor="White" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="320" 
+                    CornerRadius="10" 
+                    FontSize="18" 
+                    x:Name="ProfUserBtn" 
+                    Clicked="ProfUserBtn_Clicked" />
+
+            <Button Text="График" 
+                    BackgroundColor="{StaticResource Orange}" 
+                    TextColor="White" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="320" 
+                    CornerRadius="10" 
+                    FontSize="18" 
+                    x:Name="GraphUserBtn" 
+                    Clicked="GraphUserBtn_Clicked" />
+
+            <Button Text="Связь с администратором" 
+                    BackgroundColor="{StaticResource Orange}" 
+                    TextColor="White" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="320" 
+                    CornerRadius="10" 
+                    FontSize="18" 
+                    x:Name="AdminContactBtn" 
+                    Clicked="AdminContactBtn_Clicked" />
+
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
