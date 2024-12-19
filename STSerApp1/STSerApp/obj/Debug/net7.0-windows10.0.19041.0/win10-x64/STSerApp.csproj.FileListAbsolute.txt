@@ -752,3 +752,8 @@ D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qu
 D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\backbtn.scale-100.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\backbtn.scale-125.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\backbtn.scale-150.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\backbtn.scale-200.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\backbtn.scale-400.png

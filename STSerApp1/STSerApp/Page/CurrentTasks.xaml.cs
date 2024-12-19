@@ -11,6 +11,7 @@ namespace STSerApp.Page
     {
         private readonly FirebaseClient _firebaseClient = new FirebaseClient("https://stsdb-ae158-default-rtdb.firebaseio.com/");
         public ObservableCollection<Tasks> TaskList { get; set; }
+        private List<Tasks> AllTasks { get; set; }
 
         public CurrentTasks()
         {
@@ -40,20 +41,30 @@ namespace STSerApp.Page
                     .Child("Tasks")
                     .OnceAsync<Tasks>();
 
-                var employeeTasks = tasks
+                AllTasks = tasks
                     .Where(task => task.Object.EmployeeID == employeeId)
-                    .Select(task => task.Object);
+                    .Select(task => task.Object)
+                    .ToList();
 
-                TaskList.Clear();
+                // Фильтрация предстоящих задач при первой загрузке
+                var upcomingTasks = AllTasks
+                    .Where(task => task.EndDate >= DateTime.Now.Date)
+                    .OrderBy(task => task.StartDate);
 
-                foreach (var task in employeeTasks)
-                {
-                    TaskList.Add(task);
-                }
+                UpdateTaskList(upcomingTasks);
             }
             catch (Exception ex)
             {
                 await DisplayAlert("Ошибка", $"Не удалось загрузить задачи: {ex.Message}", "OK");
+            }
+        }
+
+        private void UpdateTaskList(IEnumerable<Tasks> tasks)
+        {
+            TaskList.Clear();
+            foreach (var task in tasks)
+            {
+                TaskList.Add(task);
             }
         }
 
@@ -65,6 +76,24 @@ namespace STSerApp.Page
 
             // Открываем модальное окно с деталями задачи
             await Navigation.PushModalAsync(new TaskDetailsPage(task));
+        }
+
+        private void UpcomingTasksButton_Clicked(object sender, EventArgs e)
+        {
+            var upcomingTasks = AllTasks
+                .Where(task => task.EndDate >= DateTime.Now.Date)
+                .OrderBy(task => task.StartDate);
+
+            UpdateTaskList(upcomingTasks);
+        }
+
+        private void CompletedTasksButton_Clicked(object sender, EventArgs e)
+        {
+            var completedTasks = AllTasks
+                .Where(task => task.EndDate <= DateTime.Now.Date)
+                .OrderByDescending(task => task.EndDate);
+
+            UpdateTaskList(completedTasks);
         }
     }
 }

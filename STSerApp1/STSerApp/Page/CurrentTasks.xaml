@@ -5,13 +5,28 @@
              NavigationPage.HasNavigationBar="False"
              Title="Предстоящие задачи">
 
+    <VerticalStackLayout Padding="10" Spacing="10">
+        <!-- Кнопки переключения задач -->
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+            <Button Text="Предстоящие"
+                    x:Name="UpcomingTasksButton"
+                    BackgroundColor="{StaticResource Orange}"
+                    TextColor="White"
+                    Clicked="UpcomingTasksButton_Clicked"/>
+            <Button Text="Завершенные"
+                    x:Name="CompletedTasksButton"
+                    BackgroundColor="{StaticResource Gray200}"
+                    TextColor="White"
+                    Clicked="CompletedTasksButton_Clicked"/>
+        </HorizontalStackLayout>
     <!-- Прокручиваемый контейнер -->
     <CollectionView ItemsSource="{Binding TaskList}">
         <CollectionView.ItemTemplate>
             <DataTemplate>
                 
+                    
 
-                <Frame Padding="1"  BorderColor="{StaticResource Orange}" CornerRadius="10" HasShadow="True" Margin="6,6,6,6"  >
+                    <Frame Padding="1"  BorderColor="{StaticResource Orange}" CornerRadius="10" HasShadow="True" Margin="6,6,6,6"  >
                     <StackLayout Padding="10" >
                         <Label Text="{Binding Title}"  FontSize="26"  TextColor="{StaticResource Primary}"  Margin="0,0,0,5" FontAttributes="Bold" />
                         <Label Text="{Binding StartDate, StringFormat='Дата: {0:dd.MM.yyyy} Время: {0:HH:mm}'}" FontSize="19" TextColor="Gray" />
@@ -24,5 +39,6 @@
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
+  </VerticalStackLayout>
 
 </ContentPage>

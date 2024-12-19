@@ -596,3 +596,6 @@ D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\refi
 D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\STSerApp.pdb
 D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\STSerApp.genruntimeconfig.cache
 D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\STSerApp.dll
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\backbtn.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\backbtn@2x.png
+D:\Apps\STS\STSerApp1\STSerApp\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\backbtn@3x.png

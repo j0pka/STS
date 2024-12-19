@@ -33,9 +33,9 @@
                       ContentTemplate="{DataTemplate pages:CurrentTasks}"
                       Route="CurrentTasks"
             Shell.NavBarIsVisible="False"/>
-        <ShellContent Title="Карта"
+        <ShellContent Title="График"
                       Icon="calendar.svg"
-                      ContentTemplate="{DataTemplate pages:MapPage}"
+                      ContentTemplate="{DataTemplate pages:GraphPage}"
                       Route="GraphPage"
             Shell.NavBarIsVisible="False"/>
         <ShellContent Title="Меню"
