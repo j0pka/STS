@@ -12,7 +12,7 @@
                 <StackLayout Padding="10">
                     <Label Text="{Binding Title}" FontSize="18" FontAttributes="Bold" />
                     <Label Text="{Binding Description}" FontSize="14" TextColor="Gray" />
-                    <Label Text="{Binding DueDate, StringFormat='{0:dd.MM.yyyy}'}" FontSize="14" TextColor="Red" />
+                    <Label Text="{Binding StartDate, StringFormat='{0:dd.MM.yyyy}'}" FontSize="14" TextColor="Red" />
                 </StackLayout>
             </DataTemplate>
         </CollectionView.ItemTemplate>
