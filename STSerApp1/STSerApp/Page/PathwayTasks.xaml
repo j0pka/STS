@@ -3,70 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="STSerApp.Page.PathwayTasks"
              NavigationPage.HasNavigationBar="False">
-    <ScrollView>
-        <VerticalStackLayout
-            HorizontalOptions="Center"
-            VerticalOptions="Start"
-            Spacing="20"
-            Padding="20">
-
-            <!-- Заголовок страницы -->
-            <Label Text="Добавить задачу"
-                   FontSize="24"
-                   HorizontalOptions="Center"
-                   FontAttributes="Bold"
-                   TextColor="{StaticResource Primary}"/>
-
-            <!-- Ввод названия задачи -->
-            <Entry x:Name="TitleEntry" Placeholder="Название задачи" FontSize="18"/>
-
-            <!-- Ввод даты начала -->
-            <DatePicker x:Name="StartDatePicker" FontSize="18"/>
-
-            <!-- Ввод даты окончания -->
-            <DatePicker x:Name="EndDatePicker" FontSize="18"/>
-
-            <!-- Ввод адреса -->
-            <Entry x:Name="AddressEntry" Placeholder="Адрес" FontSize="18"/>
-
-            <!-- Ввод описания -->
-            <Editor x:Name="DescriptionEditor" Placeholder="Описание" FontSize="18" HeightRequest="100"/>
-
-            <!-- Ввод комментария -->
-            <Editor x:Name="TaskCommentEditor" Placeholder="Комментарий" FontSize="18" HeightRequest="100"/>
-
-            <!-- Выпадающий список для выбора Customer -->
-            <Picker x:Name="CustomerPicker" Title="Выберите клиента" FontSize="18">
-                <Picker.ItemDisplayBinding>
-                    <Binding Path="CompanyName"/>
-                </Picker.ItemDisplayBinding>
-            </Picker>
-
-            <!-- Выпадающий список для выбора Vehicle -->
-            <Picker x:Name="VehiclePicker" Title="Выберите транспорт" FontSize="18">
-                <Picker.ItemDisplayBinding>
-                    <Binding Path="Name"/>
-                </Picker.ItemDisplayBinding>
-            </Picker>
-
-            <!-- Ввод CustomerID -->
-            <Entry x:Name="CustomerIDEntry" Placeholder="CustomerID" FontSize="18"/>
-
-            <!-- Ввод VehicleID -->
-            <Entry x:Name="VehicleIDEntry" Placeholder="VehicleID" FontSize="18"/>
-
-            <!-- Ввод EmployeeID -->
-            <Entry x:Name="EmployeeIDEntry" Placeholder="EmployeeID" FontSize="18"/>
-
-            <!-- Кнопка добавления задачи -->
-            <Button Text="Добавить задачу" 
-                    BackgroundColor="{StaticResource Orange}" 
-                    TextColor="White" 
-                    FontSize="18" 
-                    Clicked="OnAddTaskClicked"/>
-
-        </VerticalStackLayout>
-    </ScrollView>
+    
 </ContentPage>
 
 
