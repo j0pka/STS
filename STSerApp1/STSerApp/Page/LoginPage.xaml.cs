@@ -37,13 +37,11 @@ namespace STSerApp.Page
                 {
                     await DisplayAlert("Успешно", $"Добро пожаловать, {employee.Object.FirstName}!", "OK");
 
-                    // Сохранить данные текущего пользователя для глобального доступа
-                    App.CurrentUser = employee.Object;
+                    // Сохранение текущего сотрудника
+                    AppShell.SetCurrentEmployee(employee.Object.EmployeeID);
 
-                    // Перенаправить на главную страницу
-                    Application.Current.MainPage = new NavigationPage(new AppShell());
-                    System.Diagnostics.Debug.WriteLine("Текущий пользователь: " + App.CurrentUser?.FirstName);
-
+                    // Переход к главной странице
+                    Application.Current.MainPage = new AppShell();
                 }
                 else
                 {
@@ -55,6 +53,8 @@ namespace STSerApp.Page
                 await DisplayAlert("Ошибка", $"Произошла ошибка: {ex.Message}", "OK");
             }
         }
+
+
 
         private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
         {

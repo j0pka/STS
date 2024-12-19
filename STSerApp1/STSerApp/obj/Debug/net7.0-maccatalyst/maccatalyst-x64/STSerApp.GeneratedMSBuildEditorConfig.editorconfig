@@ -59,23 +59,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.PathwayTasks
 build_metadata.AdditionalFiles.TargetPath = Page\PathwayTasks.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\PathwayTasks.xaml
 
-[D:/Apps/STS/STSerApp1/STSerApp/Page/TestPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.TestPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Page\TestPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Page\TestPage.xaml
-
 [D:/Apps/STS/STSerApp1/STSerApp/Page/UserProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.UserProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Page\UserProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\UserProfilePage.xaml
-
-[D:/Apps/STS/STSerApp1/STSerApp/Popups/TaskDetailsPopup.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Popups.TaskDetailsPopup.xaml
-build_metadata.AdditionalFiles.TargetPath = Popups\TaskDetailsPopup.xaml
-build_metadata.AdditionalFiles.RelativePath = Popups\TaskDetailsPopup.xaml
 
 [D:/Apps/STS/STSerApp1/STSerApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

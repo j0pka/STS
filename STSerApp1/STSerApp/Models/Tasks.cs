@@ -11,13 +11,13 @@ namespace STSerApp.Models
         public string Title { get; set; } // Название
         public DateTime StartDate { get; set; } // Дата начала
         public DateTime EndDate { get; set; } // Дата окончания
-        public Employees Employee { get; set; } // Сотрудник (ссылка на класс Employees)
-        public Customers Customer { get; set; } // Заказчик (ссылка на ранее созданный класс Customers)
-        public Vehicles Vehicle { get; set; } // Автомобиль (ссылка на ранее созданный класс Vehicles)
+
+        public string CustomerID { get; set; } 
+        public string VehicleID { get; set; } 
         public string Address { get; set; } // Адрес
         public string Description { get; set; } // Описание
         public string TaskComment { get; set; } // Комментарий к задаче
-        public string EmployeeId { get; set; }
+        public string EmployeeID { get; set; }
 
     }
 }

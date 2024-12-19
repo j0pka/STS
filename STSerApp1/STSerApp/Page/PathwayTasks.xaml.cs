@@ -9,10 +9,7 @@ public partial class PathwayTasks : ContentPage
 
     
 
-    private void Login1Btn_Clicked(object sender, EventArgs e)
-    {
-        Application.Current.MainPage = new NavigationPage(new TestPage());
-    }
+    
 
     
 }
