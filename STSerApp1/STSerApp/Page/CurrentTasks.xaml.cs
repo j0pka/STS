@@ -56,5 +56,15 @@ namespace STSerApp.Page
                 await DisplayAlert("Ошибка", $"Не удалось загрузить задачи: {ex.Message}", "OK");
             }
         }
+
+        private async void MoreInfBtn_Clicked(object sender, EventArgs e)
+        {
+            // Находим задачу, на которую нажали
+            var button = (Button)sender;
+            var task = (Tasks)button.BindingContext;
+
+            // Открываем модальное окно с деталями задачи
+            await Navigation.PushModalAsync(new TaskDetailsPage(task));
+        }
     }
 }

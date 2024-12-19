@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="STSerApp.Page.TaskDetailsPage"
+             BackgroundColor="Transparent"
+             Padding="0">
+    <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  >
+        <!-- Полупрозрачный фон, чтобы подчеркнуть модальность -->
+        <BoxView BackgroundColor="Transparent" Opacity="0" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+
+        <!-- Модальное окно, которое будет частично скрывать текущую страницу -->
+        <Frame AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" Margin="32,90"
+               BackgroundColor="White" HasShadow="True"  BorderColor="{StaticResource Orange}" CornerRadius="15">
+            <VerticalStackLayout Padding="0">
+                <!-- Кнопка закрытия окна -->
+                <Button Text="X" BackgroundColor="Transparent" TextColor="Black" 
+                        HorizontalOptions="End" VerticalOptions="Start" 
+                        x:Name="closeButton"
+                        Clicked="closeButton_Clicked"
+                        FontSize="30"/>
+
+                <!-- Информация о задаче -->
+                <Label Text="{Binding Title}" FontSize="26" TextColor="{StaticResource Primary}" Margin="0,0,0,5" FontAttributes="Bold" />
+                <Label Text="{Binding StartDate, StringFormat='Начало: {0:dd.MM.yyyy} в {0:HH:mm}'}" FontSize="19" TextColor="{StaticResource Black}" />
+                <Label Text="{Binding EndDate, StringFormat='Конец: {0:dd.MM.yyyy} в {0:HH:mm}'}" FontSize="19" TextColor="{StaticResource Black}" />
+                <BoxView HeightRequest="3" BackgroundColor="{StaticResource Orange}" Margin="0,5" CornerRadius="10" Opacity="0.1"/>
+                <Label Text="{Binding Address}" FontSize="19" TextColor="{StaticResource Black}" />
+                <BoxView HeightRequest="3" BackgroundColor="{StaticResource Orange}" Margin="0,5" CornerRadius="10" Opacity="0.1"/>
+                <Label Text="{Binding Description}" FontSize="19" TextColor="{StaticResource Black}" />
+                
+
+                <!-- Кнопка "Начать" -->
+                <Button Text="Начать" FontSize="20" BackgroundColor="{StaticResource Primary}" WidthRequest="150" Margin="20" HorizontalOptions="Center" 
+                        VerticalOptions="End" />
+            </VerticalStackLayout>
+        </Frame>
+    </AbsoluteLayout>
+</ContentPage>

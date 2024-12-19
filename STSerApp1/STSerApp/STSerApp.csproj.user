@@ -39,6 +39,9 @@
     <MauiXaml Update="Page\PathwayTasks.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Page\TaskDetailsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Page\UserProfilePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

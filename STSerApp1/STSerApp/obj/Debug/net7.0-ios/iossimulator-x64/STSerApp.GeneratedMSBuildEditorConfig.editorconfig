@@ -59,6 +59,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.PathwayTasks
 build_metadata.AdditionalFiles.TargetPath = Page\PathwayTasks.xaml
 build_metadata.AdditionalFiles.RelativePath = Page\PathwayTasks.xaml
 
+[D:/Apps/STS/STSerApp1/STSerApp/Page/TaskDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.TaskDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Page\TaskDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Page\TaskDetailsPage.xaml
+
 [D:/Apps/STS/STSerApp1/STSerApp/Page/UserProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = STSerApp.Page.UserProfilePage.xaml
