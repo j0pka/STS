@@ -11,18 +11,22 @@
 
         
 
-        <!-- Сообщение пользователю -->
-        <Label Text="Активных заказов нет." 
-               FontSize="18" 
-               HorizontalOptions="Center" 
-               VerticalOptions="Center"
-               
-               Margin="5,0,5,0"
-               TextColor="{StaticResource Gray400}" />
-
-
-        <Button Text="Войти" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="Login1Btn" Clicked="Login1Btn_Clicked"/>
+        
         
         
     </VerticalStackLayout>
 </ContentPage>
+
+
+
+<!-- Сообщение пользователю -->
+<!--<Label Text="Активных заказов нет." 
+       FontSize="18" 
+       HorizontalOptions="Center" 
+       VerticalOptions="Center"
+       
+       Margin="5,0,5,0"
+       TextColor="{StaticResource Gray400}" />
+
+
+<Button Text="Войти" Background="{StaticResource Orange}" HorizontalOptions="Center" WidthRequest="200" CornerRadius="10"  FontSize="18" x:Name="Login1Btn" Clicked="Login1Btn_Clicked"/>-->

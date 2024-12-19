@@ -35,12 +35,20 @@ namespace STSerApp.Page
             var tasksForUsers = new Dictionary<int, List<TaskModel>>
             {
                 { 1, new List<TaskModel> {
-                        new TaskModel { Title = "Очистка территории от мусора", StartDate = DateTime.Now, Address = "Территория 1", Description = "Очистка мусора в зоне 1." },
-                        new TaskModel { Title = "Уборка территории", StartDate = DateTime.Now.AddDays(-1), Address = "Территория 2", Description = "Уборка территории вокруг офисного здания." }
+                        new TaskModel { Title = "Раскапывание траншеи ", StartDate = new DateTime(2004, 12, 19, 9, 30, 0), Address = "г. Уфа ул.Чернышевского 3", Description = "Необходимо выкопать траншею (примерная длина 100-150 метров). Расположение укажет заказчик." },
+                        new TaskModel { Title = "Уборка территории", StartDate = new DateTime(2024, 12, 14, 9, 30, 0), Address = "г. Уфа ул.Ленина 153", Description = "Уборка территории от строительного мусора вокруг офисного здания." },
+                        new TaskModel { Title = "Перевозка груза по тереторрии ", StartDate = new DateTime(2024, 12, 21, 12, 30, 0), Address = "г. Уфа ул.Ленина 153", Description = "Поднять и перевзти груз на территории стройки с помощью крана." },
+                        new TaskModel { Title = "Перевозка груза по тереторрии ", StartDate = new DateTime(2024, 12, 22, 12, 30, 0), Address = "г. Уфа ул.Ленина 153", Description = "Поднять и перевзти груз на территории стройки с помощью крана." },
+                        new TaskModel { Title = "Перевозка груза по тереторрии ", StartDate = new DateTime(2024, 12, 25, 12, 30, 0), Address = "г. Уфа ул.Ленина 153", Description = "Поднять и перевзти груз на территории стройки с помощью крана." }
                     }
                 },
                 { 2, new List<TaskModel> {
-                        new TaskModel { Title = "Общий уход за территорией", StartDate = DateTime.Now.AddDays(-2), Address = "Территория 3", Description = "Уход за растительностью и уборка территории." }
+                        new TaskModel { Title = "Поднятие вывески для монтажа ", StartDate = new DateTime(2024, 12, 20, 12, 30, 0), Address = "г. Уфа ул.Ленина 153", Description = "Поднять и зафиксировать вывеску в статичном положении, пока ее будут монтировать к фасаду здания." },
+                        new TaskModel { Title = "Перевозка груза по тереторрии ", StartDate = new DateTime(2024, 12, 14, 12, 30, 0), Address = "г. Уфа ул.Ленина 153", Description = "Поднять и перевзти груз на территории стройки с помощью крана." },
+                        new TaskModel { Title = "Перевозка груза по тереторрии ", StartDate = new DateTime(2024, 12, 21, 12, 30, 0), Address = "г. Уфа ул.Ленина 153", Description = "Поднять и перевзти груз на территории стройки с помощью крана." },
+                        new TaskModel { Title = "Перевозка груза по тереторрии ", StartDate = new DateTime(2024, 12, 22, 12, 30, 0), Address = "г. Уфа ул.Ленина 153", Description = "Поднять и перевзти груз на территории стройки с помощью крана." },
+                        new TaskModel { Title = "Перевозка груза по тереторрии ", StartDate = new DateTime(2024, 12, 25, 12, 30, 0), Address = "г. Уфа ул.Ленина 153", Description = "Поднять и перевзти груз на территории стройки с помощью крана." }
+
                     }
                 }
             };
@@ -83,7 +91,7 @@ namespace STSerApp.Page
             // Использование стандартных цветов или явно указанных значений
             foreach (var button in new Button[] { (Button)FindByName("onUpcomingTasks"), (Button)FindByName("onCompletedTasks") })
             {
-                button.BackgroundColor = (button == clickedButton) ? Color.FromArgb("#FFA500") : Color.FromArgb("#404040");
+                button.BackgroundColor = (button == clickedButton) ? Color.FromArgb("#F49D37") : Color.FromArgb("#E1E1E1");
             }
         }
 

@@ -7,11 +7,19 @@
 
     <!-- Прокручиваемый контейнер -->
     <ScrollView>
+       
         <VerticalStackLayout Padding="10" Spacing="20">
+
+            <Label Text="Заказы" 
+                    FontSize="26" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Start" 
+                    FontAttributes="Bold"
+                    TextColor="{StaticResource Primary}"/>
             <!-- Кнопки для переключения сортировки -->
             <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
-                <Button Text="Предстоящие" x:Name="onUpcomingTasks" Clicked="onUpcomingTasks_Clicked"  BackgroundColor="{StaticResource Orange}" TextColor="White"/>
-                <Button Text="Завершенные" x:Name="onCompletedTasks" Clicked="onCompletedTasks_Clicked"  BackgroundColor="{StaticResource Gray100}" TextColor="White"/>
+                <Button Text="Предстоящие" x:Name="onUpcomingTasks" Clicked="onUpcomingTasks_Clicked"  BackgroundColor="{StaticResource Orange}" TextColor="White" FontSize="16"/>
+                <Button Text="Завершенные" x:Name="onCompletedTasks" Clicked="onCompletedTasks_Clicked"  BackgroundColor="{StaticResource Gray200}" TextColor="White" FontSize="16"/>
             </HorizontalStackLayout>
 
             <!-- Список задач -->
@@ -20,11 +28,11 @@
                     <DataTemplate>
                         <Frame Margin="5" Padding="10" BorderColor="{StaticResource Orange}" CornerRadius="10">
                             <VerticalStackLayout>
-                                <Label Text="{Binding Title}" FontSize="18" FontAttributes="Bold" TextColor="{StaticResource Primary}" />
-                                <Label Text="{Binding StartDate, StringFormat='Дата: {0:dd.MM.yyyy} Время: {0:HH:mm}'}" FontSize="16" TextColor="Gray" />
-                                <Label Text="{Binding Address}" FontSize="14" TextColor="{StaticResource Gray}" />
-                                <Label Text="{Binding Description}" FontSize="14" TextColor="{StaticResource Black}" LineBreakMode="TailTruncation" />
-                                <Button Text="Больше информации" BackgroundColor="{StaticResource Orange}" TextColor="White" Clicked="OnMoreInfoBtn_Clicked" />
+                                <Label Text="{Binding Title}" FontSize="22" FontAttributes="Bold" TextColor="{StaticResource Primary}"  Margin="0,0,0,10"/>
+                                <Label Text="{Binding StartDate, StringFormat='Дата: {0:dd.MM.yyyy} Время: {0:HH:mm}'}" FontSize="18" TextColor="Gray" />
+                                <Label Text="{Binding Address}" FontSize="18" TextColor="{StaticResource Gray}" />
+                                <Label Text="{Binding Description}" FontSize="18" TextColor="{StaticResource Black}" LineBreakMode="TailTruncation" />
+                                <Button Text="Больше информации" FontSize="17" Margin="0,15,0,5" BackgroundColor="{StaticResource Orange}" TextColor="White" Clicked="OnMoreInfoBtn_Clicked" />
                             </VerticalStackLayout>
                         </Frame>
                     </DataTemplate>
