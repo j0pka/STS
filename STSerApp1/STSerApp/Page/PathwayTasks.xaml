@@ -35,6 +35,20 @@
             <!-- Ввод комментария -->
             <Editor x:Name="TaskCommentEditor" Placeholder="Комментарий" FontSize="18" HeightRequest="100"/>
 
+            <!-- Выпадающий список для выбора Customer -->
+            <Picker x:Name="CustomerPicker" Title="Выберите клиента" FontSize="18">
+                <Picker.ItemDisplayBinding>
+                    <Binding Path="CompanyName"/>
+                </Picker.ItemDisplayBinding>
+            </Picker>
+
+            <!-- Выпадающий список для выбора Vehicle -->
+            <Picker x:Name="VehiclePicker" Title="Выберите транспорт" FontSize="18">
+                <Picker.ItemDisplayBinding>
+                    <Binding Path="Name"/>
+                </Picker.ItemDisplayBinding>
+            </Picker>
+
             <!-- Ввод CustomerID -->
             <Entry x:Name="CustomerIDEntry" Placeholder="CustomerID" FontSize="18"/>
 
@@ -54,7 +68,6 @@
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
-
 
 
 <!-- Сообщение пользователю -->

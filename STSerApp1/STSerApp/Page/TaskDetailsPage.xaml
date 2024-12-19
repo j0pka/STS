@@ -9,7 +9,7 @@
         <BoxView BackgroundColor="Transparent" Opacity="0" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
 
         <!-- Модальное окно, которое будет частично скрывать текущую страницу -->
-        <Frame AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" Margin="32,90"
+        <Frame AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" Margin="30,30,30,86"
                BackgroundColor="White" HasShadow="True"  BorderColor="{StaticResource Orange}" CornerRadius="15">
             <VerticalStackLayout Padding="0">
                 <!-- Кнопка закрытия окна -->
@@ -17,17 +17,27 @@
                         HorizontalOptions="End" VerticalOptions="Start" 
                         x:Name="closeButton"
                         Clicked="closeButton_Clicked"
-                        FontSize="30"/>
+                        FontSize="30"
+                        Margin="0,0,0,-30"/>
 
                 <!-- Информация о задаче -->
                 <Label Text="{Binding Title}" FontSize="26" TextColor="{StaticResource Primary}" Margin="0,0,0,5" FontAttributes="Bold" />
                 <Label Text="{Binding StartDate, StringFormat='Начало: {0:dd.MM.yyyy} в {0:HH:mm}'}" FontSize="19" TextColor="{StaticResource Black}" />
                 <Label Text="{Binding EndDate, StringFormat='Конец: {0:dd.MM.yyyy} в {0:HH:mm}'}" FontSize="19" TextColor="{StaticResource Black}" />
-                <BoxView HeightRequest="3" BackgroundColor="{StaticResource Orange}" Margin="0,5" CornerRadius="10" Opacity="0.1"/>
+                <BoxView HeightRequest="3" BackgroundColor="{StaticResource Orange}" Margin="0,5" CornerRadius="10" />
                 <Label Text="{Binding Address}" FontSize="19" TextColor="{StaticResource Black}" />
-                <BoxView HeightRequest="3" BackgroundColor="{StaticResource Orange}" Margin="0,5" CornerRadius="10" Opacity="0.1"/>
-                <Label Text="{Binding Description}" FontSize="19" TextColor="{StaticResource Black}" />
-                
+                <BoxView HeightRequest="3" BackgroundColor="{StaticResource Orange}" Margin="0,5" CornerRadius="10" />
+                <Label Text="{Binding Description}" FontSize="17" TextColor="{StaticResource Black}" />
+                <BoxView HeightRequest="3" BackgroundColor="{StaticResource Orange}" Margin="0,5" CornerRadius="10" />
+                <Label Text="{Binding Customer.CompanyName}" FontSize="19" TextColor="{StaticResource Black}" HorizontalOptions="Center"/>
+                <Label Text="{Binding Customer.Representative, StringFormat='Представитель: {0}'}" FontSize="16" TextColor="{StaticResource Black}"  />
+                <Label Text="{Binding Customer.RepresentativePhoneNumber}" FontSize="16" TextColor="{StaticResource Black}" />
+                <BoxView HeightRequest="3" BackgroundColor="{StaticResource Orange}" Margin="0,5" CornerRadius="10" />
+
+                <Label Text="{Binding Vehicle.Name}" FontSize="16" TextColor="{StaticResource Black}" />
+                <Label Text="{Binding Vehicle.LicensePlate, StringFormat='Гос.номер: {0}'}" FontSize="19" TextColor="{StaticResource Black}" />
+
+
 
                 <!-- Кнопка "Начать" -->
                 <Button Text="Начать" FontSize="20" BackgroundColor="{StaticResource Primary}" WidthRequest="150" Margin="20" HorizontalOptions="Center" 

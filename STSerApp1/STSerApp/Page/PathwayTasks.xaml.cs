@@ -9,10 +9,45 @@ namespace STSerApp.Page;
 public partial class PathwayTasks : ContentPage
 {
     private readonly FirebaseClient _firebaseClient = new FirebaseClient("https://stsdb-ae158-default-rtdb.firebaseio.com/");
-    public PathwayTasks()
-	{
-		InitializeComponent();
+    public List<Customers> CustomerList { get; set; }
+    public List<Vehicles> VehicleList { get; set; }
+
+    public PathwayTasks() { 
+
+        InitializeComponent();
 	}
+
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        await LoadData();
+    }
+
+    private async Task LoadData()
+    {
+        try
+        {
+            // Загрузка списка клиентов
+            var customers = await _firebaseClient
+                .Child("Customers")
+                .OnceAsync<Customers>();
+
+            CustomerList = customers.Select(c => c.Object).ToList();
+            CustomerPicker.ItemsSource = CustomerList;
+
+            // Загрузка списка транспортных средств
+            var vehicles = await _firebaseClient
+                .Child("Vehicles")
+                .OnceAsync<Vehicles>();
+
+            VehicleList = vehicles.Select(v => v.Object).ToList();
+            VehiclePicker.ItemsSource = VehicleList;
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Ошибка", $"Не удалось загрузить данные: {ex.Message}", "OK");
+        }
+    }
 
     private async void OnAddTaskClicked(object sender, EventArgs e)
     {
@@ -23,14 +58,20 @@ public partial class PathwayTasks : ContentPage
         var address = AddressEntry.Text;
         var description = DescriptionEditor.Text;
         var taskComment = TaskCommentEditor.Text;
-        var customerID = CustomerIDEntry.Text;
-        var vehicleID = VehicleIDEntry.Text;
-        var employeeID = EmployeeIDEntry.Text;
+
+        var customer = (Customers)CustomerPicker.SelectedItem;
+        var vehicle = (Vehicles)VehiclePicker.SelectedItem;
 
         // Проверка обязательных полей
         if (string.IsNullOrWhiteSpace(title) || string.IsNullOrWhiteSpace(address) || string.IsNullOrWhiteSpace(description))
         {
             await DisplayAlert("Ошибка", "Все поля должны быть заполнены.", "OK");
+            return;
+        }
+
+        if (customer == null || vehicle == null)
+        {
+            await DisplayAlert("Ошибка", "Необходимо выбрать клиента и транспорт.", "OK");
             return;
         }
 
@@ -44,10 +85,11 @@ public partial class PathwayTasks : ContentPage
                 Address = address,
                 Description = description,
                 TaskComment = taskComment,
-                CustomerID = customerID,
-                VehicleID = vehicleID,
-                EmployeeID = employeeID
-               
+                CustomerID = customer.CustomerId,
+                VehicleID = vehicle.VehicleId,
+                EmployeeID = EmployeeIDEntry.Text,
+                Customer = customer,
+                Vehicle = vehicle
             };
 
             // Добавление задачи в Firebase
@@ -68,11 +110,12 @@ public partial class PathwayTasks : ContentPage
             EmployeeIDEntry.Text = string.Empty;
             StartDatePicker.Date = DateTime.Now;
             EndDatePicker.Date = DateTime.Now;
+            CustomerPicker.SelectedItem = null;
+            VehiclePicker.SelectedItem = null;
         }
         catch (Exception ex)
         {
             await DisplayAlert("Ошибка", $"Не удалось добавить задачу: {ex.Message}", "OK");
         }
     }
-
 }
